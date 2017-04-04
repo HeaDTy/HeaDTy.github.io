@@ -116,6 +116,8 @@ footer {
   font-size: 12px;
   border-top-left-radius:5px;
   border-top-right-radius:5px;
+  position: static; 
+  bottom: 0
 }
 
 footer ul {
@@ -256,16 +258,6 @@ snip1584 a:hover {
   border-bottom: 1px solid #aaa;
   padding-top: 10px;
   padding-bottom: 30px;
-}
-
-footer {
-    background-color: orange;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow:hidden;
 }
 
 /* Landscape phones and down */
