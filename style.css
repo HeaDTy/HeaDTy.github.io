@@ -2,7 +2,6 @@ body {
   margin: auto;
   font-family: 'Open Sans', sans-serif;
   width: 80%;
-  height: 100%;
 }
 
 a {
@@ -73,7 +72,7 @@ nav li a {
   margin: 0;
   width: 100%;
   margin-top: -50px;
-  margin: 0 auto -70px;
+  min-height: calc(100vh - 130px);
 }
 
 .content ul {
@@ -107,7 +106,7 @@ nav li a {
   border-radius: 5px;
 }
 
-footer, .push {
+footer {
   height: 70px;
 }
 
