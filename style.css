@@ -258,6 +258,16 @@ snip1584 a:hover {
   padding-bottom: 30px;
 }
 
+footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   body {
