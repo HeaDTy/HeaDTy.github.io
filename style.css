@@ -297,7 +297,7 @@ snip1584 a:hover {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   body{
     background: red;
   }
