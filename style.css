@@ -1,0 +1,266 @@
+body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 40px;
+}
+
+nav {
+  width: 100%;
+  font-weight:800;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+  letter-spacing: 0.1em;
+}
+
+nav li p {
+  display: block;
+  color: #738986;
+  text-align: center;
+  padding: 0px 16px;
+  font-size: 40px;
+}
+
+nav li a {
+  color: #738986;
+  text-decoration: none;
+}
+
+.contact {
+  text-decoration: none;
+  position: relative;
+  color: #b36154;
+}
+
+.contact:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 4px solid #b36154;
+  transition: 0.4s;
+}
+
+.contact:hover:after {
+  width: 100%;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.content div {
+  margin: auto;
+  width: 95%;
+}
+
+.content li {
+  padding-top: 50px;
+  float: left;
+  width: 50%;
+}
+
+.content li .top-text {
+  color: #738986;
+}
+
+.content li a {
+  text-decoration: none;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  margin: 0;
+  width: 100%;
+  heigt: 2em;
+  background: #333;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 12px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer li {
+  margin: auto;
+  width: 50%;
+  padding-top: 5px;
+}
+
+footer li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+.snip1584 {
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+snip1584 a:hover {
+  color: red;
+  text-decoration: none;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #8e8680;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  border-radius: 5px;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+  
+  .content li {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 649px) {
+  nav ul {
+    margin: auto;
+    width: 100%;
+  }
+  nav li {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+}
