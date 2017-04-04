@@ -35,8 +35,11 @@ nav li p {
   display: block;
   color: #738986;
   text-align: center;
-  padding: 0px 16px;
   font-size: 40px;
+}
+
+nav li .active {
+  padding: 0px 16px;
 }
 
 nav li a {
@@ -239,6 +242,11 @@ snip1584 a:hover {
   transition-delay: 0.2s;
 }
 
+.contact-header {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
 .contact-header a {
   color: #b36154;
 }
@@ -246,6 +254,8 @@ snip1584 a:hover {
 .contact-header h1 {
   width: 100%;
   border-bottom: 1px solid #aaa;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 /* Landscape phones and down */
