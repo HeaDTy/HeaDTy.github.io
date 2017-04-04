@@ -239,7 +239,11 @@ snip1584 a:hover {
   transition-delay: 0.2s;
 }
 
-.contact-header {
+.contact-header a {
+  color: #b36154;
+}
+
+.contact-header h1 {
   width: 100%;
   border-bottom: 1px solid #aaa;
 }
