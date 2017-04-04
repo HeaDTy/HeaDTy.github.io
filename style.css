@@ -296,3 +296,7 @@ snip1584 a:hover {
     float: none;
   }
 }
+
+@media (min-width: 900px) {
+  background: red;
+}
