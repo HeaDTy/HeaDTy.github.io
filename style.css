@@ -2,7 +2,6 @@ body {
   margin: auto;
   font-family: 'Open Sans', sans-serif;
   width: 80%;
-  background: red;
 }
 
 a {
@@ -13,6 +12,7 @@ a {
 .logo {
   font-family: 'Baloo Chettan', cursive;
   font-size: 40px;
+  padding-left: 16px;
 }
 
 nav {
