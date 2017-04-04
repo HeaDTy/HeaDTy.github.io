@@ -2,6 +2,7 @@ body {
   margin: auto;
   font-family: 'Open Sans', sans-serif;
   width: 80%;
+  height: 100%;
 }
 
 a {
@@ -68,9 +69,11 @@ nav li a {
 }
 
 .content {
+  min-height: 100%;
   margin: 0;
   width: 100%;
   margin-top: -50px;
+  margin: 0 auto -70px;
 }
 
 .content ul {
@@ -104,6 +107,10 @@ nav li a {
   border-radius: 5px;
 }
 
+footer, .push {
+  height: 70px;
+}
+
 footer {
   margin: 0;
   width: 100%;
@@ -115,16 +122,6 @@ footer {
   font-size: 12px;
   border-top-left-radius:5px;
   border-top-right-radius:5px;
-  /*position: static; 
-  bottom: 0*/
-}
-
-footer {
-  height:70px;
-  clear:both;
-  position:relative;
-  bottom:0;
-  width: 100%;
 }
 
 footer ul {
