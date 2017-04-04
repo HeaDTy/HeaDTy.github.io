@@ -264,7 +264,7 @@ snip1584 a:hover {
 }
 
 /* Landscape phones and down */
-@media (max-width: 750px) {
+@media (max-width: 751px) {
   body {
     width: 100%;
   }
@@ -272,6 +272,14 @@ snip1584 a:hover {
   .content li {
     float: none;
     width: 100%;
+  }
+  
+  footer {
+    font-size: 20px;
+  }
+  
+  footer p {
+    font-size: 18px;
   }
 }
 
