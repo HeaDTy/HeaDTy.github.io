@@ -2,15 +2,15 @@
 	"newGame": {
 			"name": "Planet Clicker Adventure",
 			"image": "https://lh3.googleusercontent.com/jhUCN-ULMCsydMz2IqgW_Y1s6FPQkglxxKbYCd4BG-Gt0__6emgQnjkDp1LRY7d_xt4=h310",
-			"playStore": "https://play.google.com/store/apps/details?id=com.rc.plclad",
-			"appStore": "URL",
+			"playStoreID": "com.rc.plclad",
+			"appStoreID": "id389801252",
 			"hexColor": "88E321FF"
 		}
 	"oldGame_1": {
 			"name": "Block Clicker 2",
 			"image": "https://lh3.googleusercontent.com/26mNU2BENaoLvKTl6cyvdLPyAkJOgeXwQiUlQ1xYVp980NPsvBm2tZ3TJ4zfm_lEpIob=h310",
-			"playStore": "https://play.google.com/store/apps/details?id=com.rc.blockclicker2",
-			"appStore": "URL",
-			"hexColor": ""
+			"playStoreID": "com.rc.blockclicker2",
+			"appStoreID": "id389801252",
+			"hexColor": "98A3E9FF"
 		}
 }
