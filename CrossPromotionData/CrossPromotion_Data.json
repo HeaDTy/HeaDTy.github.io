@@ -15,4 +15,28 @@
 			"hexColor": "98A3E9FF",
 			"price": "FREE"
 		}
+	"game1": {
+			"name": "Skyward",
+			"image": "http://a1.mzstatic.com/us/r30/Purple1/v4/92/16/f2/9216f21e-5e19-654f-f61c-930a7da766f1/screen1136x1136.jpeg",
+			"playStoreID": "com.rc.blockclicker2",
+			"appStoreID": "id389801252",
+			"hexColor": "56B5EEFF",
+			"price": "FREE"
+		}
+	"game2": {
+			"name": "Runner",
+			"image": "http://a2.mzstatic.com/nz/r30/Purple3/v4/a9/38/2e/a9382e41-2fb6-ff9b-60c1-77cb3fd70848/screen1136x1136.jpeg",
+			"playStoreID": "com.rc.blockclicker2",
+			"appStoreID": "id389801252",
+			"hexColor": "E972EAFF",
+			"price": "FREE"
+		}
+	"game3": {
+			"name": "Circle",
+			"image": "https://d9a2g4myooeg.cloudfront.net/us/r30/Purple5/v4/d7/12/42/d7124224-a4ec-5abd-ee81-80acea2a060f/screen1136x1136.jpeg",
+			"playStoreID": "com.rc.blockclicker2",
+			"appStoreID": "id389801252",
+			"hexColor": "DBD142FF",
+			"price": "FREE"
+		}
 }
