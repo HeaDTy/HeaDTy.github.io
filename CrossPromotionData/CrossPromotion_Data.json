@@ -5,7 +5,8 @@
 			"playStoreID": "com.rc.plclad",
 			"appStoreID": "id389801252",
 			"hexColor": "88E321FF",
-			"price": "FREE"
+			"price": "FREE",
+			"id": 5
 		}
 	"game0": {
 			"name": "Block Clicker 2",
@@ -13,7 +14,8 @@
 			"playStoreID": "com.rc.blockclicker2",
 			"appStoreID": "id389801252",
 			"hexColor": "98A3E9FF",
-			"price": "FREE"
+			"price": "FREE",
+			"id": 4
 		}
 	"game1": {
 			"name": "Skyward",
@@ -21,7 +23,8 @@
 			"playStoreID": "com.rc.blockclicker2",
 			"appStoreID": "id389801252",
 			"hexColor": "56B5EEFF",
-			"price": "FREE"
+			"price": "FREE",
+			"id": 3
 		}
 	"game2": {
 			"name": "Runner",
@@ -29,7 +32,8 @@
 			"playStoreID": "com.rc.blockclicker2",
 			"appStoreID": "id389801252",
 			"hexColor": "E972EAFF",
-			"price": "FREE"
+			"price": "FREE",
+			"id": 2
 		}
 	"game3": {
 			"name": "Circle",
@@ -37,6 +41,7 @@
 			"playStoreID": "com.rc.blockclicker2",
 			"appStoreID": "id389801252",
 			"hexColor": "DBD142FF",
-			"price": "FREE"
+			"price": "FREE",
+			"id": 1
 		}
 }
