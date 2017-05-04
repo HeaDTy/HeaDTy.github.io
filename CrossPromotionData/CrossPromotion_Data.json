@@ -6,7 +6,7 @@
 			"appStoreID": "id389801252",
 			"hexColor": "88E321FF",
 			"price": "FREE",
-			"id": 5
+			"id": "5"
 		}
 	"game0": {
 			"name": "Block Clicker 2",
@@ -15,7 +15,7 @@
 			"appStoreID": "id389801252",
 			"hexColor": "98A3E9FF",
 			"price": "FREE",
-			"id": 4
+			"id": "4"
 		}
 	"game1": {
 			"name": "Skyward",
@@ -24,7 +24,7 @@
 			"appStoreID": "id389801252",
 			"hexColor": "56B5EEFF",
 			"price": "FREE",
-			"id": 3
+			"id": "3"
 		}
 	"game2": {
 			"name": "Runner",
@@ -33,7 +33,7 @@
 			"appStoreID": "id389801252",
 			"hexColor": "E972EAFF",
 			"price": "FREE",
-			"id": 2
+			"id": "2"
 		}
 	"game3": {
 			"name": "Circle",
@@ -42,6 +42,6 @@
 			"appStoreID": "id389801252",
 			"hexColor": "DBD142FF",
 			"price": "FREE",
-			"id": 1
+			"id": "1"
 		}
 }
